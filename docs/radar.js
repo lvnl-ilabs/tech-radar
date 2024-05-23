@@ -343,7 +343,7 @@ function radar_visualization(config) {
           .enter()
             .append("a")
               .attr("href", function (d, i) {
-                 return d.link ? d.link : "#"; // stay on same page if no link was provided
+                 return d.label ? "#" + d.label : "#"; // stay on same page if no link was provided
               })
               // Add a target if (and only if) there is a link and we want new tabs
               .attr("target", function (d, i) {

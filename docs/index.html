@@ -46,7 +46,7 @@ fetch('./output.json').then(function(response) {
       { name: "aaa", color: "#e09b96" }
     ],
     print_layout: true,
-    links_in_new_tabs: true,
+    links_in_new_tabs: false,
     // zoomed_quadrant: 0,
     entries: data.entries
   });
@@ -54,6 +54,7 @@ fetch('./output.json').then(function(response) {
   console.log('Error loading config.json', err);
 });
 </script>
+
 
 <table>
 <tr>
@@ -76,7 +77,7 @@ The Zalando Tech Radar is a list of technologies, complemented by an assessment 
 
 <h3>What is the purpose?</h3>
 
-<p>
+<p id="p1">
 The Tech Radar is a tool to inspire and support Engineering teams at Zalando to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our Tech Radar sets out the changes in technologies that are interesting in software development &mdash; changes that we think our engineering teams should pay attention to and use in their projects.
 </p>
 
@@ -95,6 +96,124 @@ Check out our <a href="https://engineering.zalando.com/tags/tech-radar.html">Eng
 </p>
 
 </td></tr>
+</table>
+
+<p style="text-align: center;"><strong> Klanten en partners </strong></p>
+<table>
+<tr>
+    <td><h3>Onderwerp</h3></td>
+    <td><h3>Beschrijving</h3></td>
+</tr>
+<tr id="Wereldwijd groeiende vraag naar vliegen">
+    <td>Wereldwijd groeiende vraag naar vliegen</td>
+    <td>De prognose is dat het wereldwijde vliegverkeer voorlopig zal blijven groeien. Nederland heeft als bestemming
+        een groot business potentieel en dus een interessante markt voor airlines. Nederland blijft achter t.o.v. andere
+        Europese landen v.w.b. overvliegers. Dit heeft met name te maken met de afname van het verkeer tussen UK en Azië
+        vanwege de situatie in Oekraïne en Rusland.</td>
+</tr>
+<tr id="Positie luchtvaart in Europa">
+    <td>Positie luchtvaart in Europa</td>
+    <td>De Europese Commissie erkent het belang van de luchtvaartsector voor de EU-economie en wereldwijde positie. Er
+        wordt gewerkt aan een brede strategie om de concurrentiepositie van de EU-luchtvaartsector te versterken.</td>
+</tr>
+<tr id="Nederlands vestigingsklimaat">
+    <td>Nederlands vestigingsklimaat</td>
+    <td>De luchtvaart is cruciaal voor de Nederlandse economie om het vestigingsklimaat van Nederland aantrekkelijk te
+        houden.</td>
+</tr>
+<tr id="Veranderende vraag militaire luchtvaart">
+    <td>Veranderende vraag militaire luchtvaart</td>
+    <td>Door geopolitieke ontwikkelingen verandert de behoefte van de Koninklijke Luchtmacht, en wellicht van de NAVO
+        met een effect op het gebruik van het Nederlandse luchtruim.</td>
+</tr>
+<tr id="Elektrisch / hybride / waterstof">
+    <td>Elektrisch / hybride / waterstof</td>
+    <td>Nieuwe vormen van aandrijving en vliegtuigontwerpen maken dat luchtvaart in de toekomst stiller, schoner en
+        zuiniger kan zijn.</td>
+</tr>
+<tr id="Positionering t.o.v. nieuwe luchtruimgebruikers">
+    <td>Positionering t.o.v. nieuwe luchtruimgebruikers</td>
+    <td>Drones en UTM worden steeds meer onderdeel van de samenleving. Dit betekent dat er nieuwe posities moeten worden
+        ingevuld om hier uitvoering aan te geven. Ontwikkelingen op het gebied van counterdrones zullen ook toenemen.</td>
+</tr>
+<tr id="Civiel / militaire samenwerking">
+    <td>Civiel / militaire samenwerking</td>
+    <td>Opdracht is gegeven door ministeries van Infrastructuur en Waterstaat en Defensie om civiele en militaire
+        luchtverkeersleiding te integreren om zodoende complexe Nederlandse luchtruim beter te kunnen managen.</td>
+</tr>
+<tr id="Flexibel luchtruim gebruik">
+    <td>Flexibel luchtruim gebruik</td>
+    <td>Dynamische scheidingen tussen civiel- en militair luchtruim verbetert de efficiëntie van vliegoperaties.</td>
+</tr>
+<tr id="Investeringen van airlines in vlootvernieuwing">
+    <td>Investeringen van airlines in vlootvernieuwing</td>
+    <td>Airlines zetten zich in voor een schonere en stillere luchtvaart door hun vloot te vernieuwen met investeringen
+        in vliegtuigen die stiller en efficiënter zijn.</td>
+</tr>
+</table>
+
+<p style="text-align: center;"><strong> Samenlevening </strong></p>
+<table>
+<tr>
+    <td><h3>Onderwerp</h3></td>
+    <td><h3>Beschrijving</h3></td>
+</tr>
+<tr id="Competitie om talent">
+    <td>Competitie om talent</td>
+    <td>Schaarste van (kundig) personeel heeft een impact op ons realisatievermogen.</td>
+</tr>
+<tr id="Geopolitieke ontwikkelingen">
+    <td>Geopolitieke ontwikkelingen</td>
+    <td>Veiligheidsuitdagingen en verschuivende machtsverhoudingen tussen landen en binnen werelddelen maakt dat
+        vliegbewegingen met name in het hogere luchtruim verschuiven. Ook verhoogt de relevantie van de krijgsmacht om
+        Nederland veilig te houden.</td>
+</tr>
+<tr id="Net Zero 2050">
+    <td>Net Zero 2050</td>
+    <td>De Europese luchtvaartsector heeft als doel gesteld om in 2050 volledig klimaatneutraal te functioneren.</td>
+</tr>
+<tr id="Klimaatactivisme">
+    <td>Klimaatactivisme</td>
+    <td>Demonstraties worden steeds zichtbaarder en kunnen uitvoering verstoren.</td>
+</tr>
+<tr id="Beeldvorming Mainport Schiphol">
+    <td>Beeldvorming Mainport Schiphol</td>
+    <td>Een deel van de samenleving staat kritischer tegenover de luchtvaart waardoor kritischer wordt gekeken naar wat
+        er gebeurt in de sector (inclusief LVNL).</td>
+</tr>
+<tr id="Positionering t.o.v. nieuwe luchtruimgebruikers">
+    <td>Positionering t.o.v. nieuwe luchtruimgebruikers</td>
+    <td>Drones en UTM worden steeds meer onderdeel van de samenleving. Dit betekent dat er nieuwe posities moeten worden
+        ingevuld om hier uitvoering aan te geven. Ontwikkelingen op het gebied van counterdrones zullen ook toenemen.</td>
+</tr>
+<tr id="Draagvlak luchtvaart">
+    <td>Draagvlak luchtvaart</td>
+    <td>Sinds 2018 is een dalende trend te zien in de waardering voor luchtvaart. Het e.e.a. heeft geleid tot een
+        kabinetsbesluit om Schiphol te laten krimpen, met alle dynamiek die daar sindsdien uit voortvloeide.</td>
+</tr>
+<tr id="Aandacht voor D&I">
+    <td>Aandacht voor D&I</td>
+    <td>Diversiteit en inclusie gaat over de acceptatie van zichtbare en onzichtbare verschillen in de samenwerking en
+        hoe hiermee omgegaan wordt op de werkvloer.</td>
+</tr>
+<tr id="Wijzigende verwachtingen personeel">
+    <td>Wijzigende verwachtingen personeel</td>
+    <td>Ontwikkelingen in personeelspopulaties, zoals vergrijzing en andere verwachtingen van jonge medewerkers
+        (deeltijd, jobhoppen).</td>
+</tr>
+<tr id="Hinderbeperkende maatregelen">
+    <td>Hinderbeperkende maatregelen</td>
+    <td>Voor de omwonenden bij onze velden willen wij zo hinderbeperkend werken, hiervoor zijn waar nodig nieuwe
+        procedures nodig om de overlast te beperken.</td>
+</tr>
+<tr id="Juridificering van samenleving">
+    <td>Juridificering van samenleving</td>
+    <td>Tendens naar juridificering om doelen op het gebied leefbaarheid en duurzaamheid te behalen via de rechter.</td>
+</tr>
+<tr id="">
+    <td></td>
+    <td></td>
+</tr>
 </table>
 
 </body>
