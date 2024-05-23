@@ -5,8 +5,8 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta name="description" content="Zalando Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Zalando to pick the best technologies for new projects">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Zalando Tech Radar</title>
-<link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
+<title>LVNL Context-Radar</title>
+<link rel="shortcut icon" href="https://www.lvnl.nl/img/favicon/favicon-48x48.png">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="radar.js"></script>
@@ -19,7 +19,7 @@
 <svg id="radar"></svg>
 
 <script>
-fetch('./config.json').then(function(response) {
+fetch('./output.json').then(function(response) {
   return response.json();
 }).then(function(data) {
   radar_visualization({
@@ -31,19 +31,19 @@ fetch('./config.json').then(function(response) {
       grid: '#dddde0',
       inactive: "#ddd"
     },
-    title: "Zalando Tech Radar",
+    title: "LVNL Context-Radar - Vliegplan 2030",
     date: data.date,
     quadrants: [
-      { name: "Languages" },
-      { name: "Infrastructure" },
-      { name: "Datastores" },
-      { name: "Data Management" },
+      { name: "Regelgeving" },
+      { name: "(Digitale) ATM Ontwikkelingen" },
+      { name: "Klanten en Partners" },
+      { name: "Samenleving" },
     ],
     rings: [
-      { name: "ADOPT", color: "#5ba300" },
-      { name: "TRIAL", color: "#009eb0" },
-      { name: "ASSESS", color: "#c7ba00" },
-      { name: "HOLD", color: "#e09b96" }
+      { name: "Directe impact", color: "#1E3C82" },
+      { name: "Indirecte impact", color: "#4869B4" },
+      { name: "Macro ontwikkeling", color: "#A3B6E0" },
+      { name: "aaa", color: "#e09b96" }
     ],
     print_layout: true,
     links_in_new_tabs: true,

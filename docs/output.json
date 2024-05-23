@@ -1,0 +1,271 @@
+{
+    "date": "2024.05",
+    "entries": [
+        {
+            "label": "Groene zone",
+            "ring": 0,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Onduidelijkheid over handhavingsstelsel",
+            "ring": 0,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Beleid I&W",
+            "ring": 0,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Rol toezichthouder",
+            "ring": 1,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Strengere regelgeving",
+            "ring": 1,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Europese regelgeving",
+            "ring": 2,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "CSRD",
+            "ring": 2,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Politiek klimaat",
+            "ring": 2,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Weging maatschappelijk belang",
+            "ring": 2,
+            "quadrant": 0,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Veiligheid",
+            "ring": 0,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Nieuwe technologie (standaarden)",
+            "ring": 0,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "iCAS",
+            "ring": 0,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Cyber dreigingen",
+            "ring": 0,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "SESAR/ATM Masterplan",
+            "ring": 1,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Partnerships",
+            "ring": 1,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "AI en automatisering",
+            "ring": 2,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Data delen",
+            "ring": 2,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Virtualisatie/liberalisatie",
+            "ring": 2,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Technologie adoptie",
+            "ring": 2,
+            "quadrant": 1,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Flexibel luchtruim gebruik ",
+            "ring": 0,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Civiel / militaire samenwerking",
+            "ring": 0,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Veranderende vraag militaire luchtvaart",
+            "ring": 0,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Nieuwe luchtruimgebruikers (o.a. drones)",
+            "ring": 0,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Positie luchtvaart in Europa",
+            "ring": 1,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Wereldwijd groeiende vraag naar vliegen",
+            "ring": 2,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Nederlands vestigingsklimaat",
+            "ring": 2,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Elektrisch / hybride / waterstof",
+            "ring": 2,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Investeringen van airlines in vlootvernieuwing ",
+            "ring": 2,
+            "quadrant": 2,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Wijzigende verwachtingen personeel",
+            "ring": 0,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Hinderbeperkende maatregelen",
+            "ring": 0,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Competitie om talent",
+            "ring": 1,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Aandacht voor D&I",
+            "ring": 1,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Juridificering van samenleving",
+            "ring": 1,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Draagvlak luchtvaart",
+            "ring": 1,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Beeldvorming Mainport Schiphol",
+            "ring": 1,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Klimaatactivisme",
+            "ring": 2,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Geopolitieke ontwikkelingen",
+            "ring": 2,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        },
+        {
+            "label": "Net Zero 2050",
+            "ring": 2,
+            "quadrant": 3,
+            "active": "true",
+            "moved": 0
+        }
+    ]
+}

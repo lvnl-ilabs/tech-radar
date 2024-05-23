@@ -25,7 +25,7 @@ function radar_visualization(config) {
 
   // custom random number generator, to make random sequence reproducible
   // source: https://stackoverflow.com/questions/521295
-  var seed = 42;
+  var seed = 77;
   function random() {
     var x = Math.sin(seed++) * 10000;
     return x - Math.floor(x);
@@ -50,8 +50,7 @@ function radar_visualization(config) {
   const rings = [
     { radius: 130 },
     { radius: 220 },
-    { radius: 310 },
-    { radius: 400 }
+    { radius: 310 }
   ];
 
   const title_offset =
@@ -117,8 +116,8 @@ function radar_visualization(config) {
       y: 15 * quadrants[quadrant].factor_y
     };
     var cartesian_max = {
-      x: rings[3].radius * quadrants[quadrant].factor_x,
-      y: rings[3].radius * quadrants[quadrant].factor_y
+      x: rings[2].radius * quadrants[quadrant].factor_x,
+      y: rings[2].radius * quadrants[quadrant].factor_y
     };
     return {
       clipx: function(d) {
@@ -261,16 +260,35 @@ function radar_visualization(config) {
   }
 
   function legend_transform(quadrant, ring, index=null) {
-    var dx = ring < 2 ? 0 : 140;
+    var dx = 0;
     var dy = (index == null ? -16 : index * 12);
+
+    // No need to check ring % 2 condition since it's a single row layout
     if (ring % 2 === 1) {
       dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
     }
+
+    if (ring > 1) {
+      dy = dy + 72 + segmented[quadrant][ring-2].length * 12 + segmented[quadrant][ring-1].length * 12;
+    }
+  
     return translate(
-      legend_offset[quadrant].x + dx,
+      legend_offset[quadrant].x + dx,  // Only need to use the first quadrant's offset
       legend_offset[quadrant].y + dy
     );
   }
+
+  // function legend_transform(quadrant, ring, index=null) {
+  //   var dx = ring < 2 ? 0 : 140;
+  //   var dy = (index == null ? -16 : index * 12);
+  //   if (ring % 2 === 1) {
+  //     dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
+  //   }
+  //   return translate(
+  //     legend_offset[quadrant].x + dx,
+  //     legend_offset[quadrant].y + dy
+  //   );
+  // }
 
   // draw title and legend (only in print layout)
   if (config.print_layout) {
@@ -295,7 +313,7 @@ function radar_visualization(config) {
     // footer
     radar.append("text")
       .attr("transform", translate(footer_offset.x, footer_offset.y))
-      .text("▲ moved up     ▼ moved down")
+      .text("Visualisation powered by LVNL Innovation Labs")
       .attr("xml:space", "preserve")
       .style("font-family", "Arial, Helvetica")
       .style("font-size", "10px");
@@ -312,7 +330,7 @@ function radar_visualization(config) {
         .style("font-family", "Arial, Helvetica")
         .style("font-size", "18px")
         .style("font-weight", "bold");
-      for (var ring = 0; ring < 4; ring++) {
+      for (var ring = 0; ring < 3; ring++) {
         legend.append("text")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)

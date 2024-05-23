@@ -1,10 +1,10 @@
 {
-  "date": "2024.04",
+  "date": "2024.05",
   "entries": [
     {
       "quadrant": 3,
       "ring": 2,
-      "label": "AWS Athena",
+      "label": "TESTTESTTEST",
       "active": true,
       "moved": 0
     },
@@ -124,7 +124,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "Apache Cassandra",
       "link": "https://engineering.zalando.com/tags/cassandra.html",
       "active": true,
@@ -132,7 +132,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "Consul",
       "active": true,
       "moved": 0
@@ -161,7 +161,7 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "HBase",
       "active": true,
       "moved": 0
@@ -175,35 +175,35 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "Hazelcast",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "Memcached",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "MongoDB",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "MySQL",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "Oracle DB",
       "active": true,
       "moved": 0
@@ -233,14 +233,14 @@
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "Solr",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 2,
-      "ring": 3,
+      "ring": 2,
       "label": "ZooKeeper",
       "active": true,
       "moved": 0
@@ -389,7 +389,7 @@
     },
     {
       "quadrant": 0,
-      "ring": 3,
+      "ring": 2,
       "label": "Clojure",
       "link": "https://engineering.zalando.com/tags/clojure.html",
       "active": true,
@@ -420,7 +420,7 @@
     },
     {
       "quadrant": 0,
-      "ring": 3,
+      "ring": 2,
       "label": "Haskell",
       "link": "https://engineering.zalando.com/tags/haskell.html",
       "active": true,
@@ -475,7 +475,7 @@
     },
     {
       "quadrant": 0,
-      "ring": 3,
+      "ring": 2,
       "label": "Rust",
       "link": "https://engineering.zalando.com/tags/rust.html",
       "active": true,
